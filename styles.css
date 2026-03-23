@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: powderblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.todo {
+    border: 2px solid grey;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-top: 1rem;
+}
+
+.text, .add-btn {
+    all: unset;
+    border: 2px solid grey;
+    width: 100%;
+    padding-block: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+.text {
+    text-align: center;
+}
+
+.error {
+    color:darkred;
+    text-align: center;
+}
+
+.add-btn {
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: green;
+}
